@@ -10,7 +10,6 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-
 """
 This module performs the Vlan related operation
 """
@@ -46,7 +45,7 @@ def vlan_create(handle, name, id, vlan_type="lan", fabric=None,
                 policy_owner="local", mcast_policy_name=None, pub_nw_name=None,
                 **kwargs):
     """
-    Creates VLAN
+    creates vlan
 
     Args:
         handle (UcsHandle)
